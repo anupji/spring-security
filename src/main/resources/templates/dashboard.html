@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Dash Board</title>
+
+</head>
+<body>
+    <div>
+        <h1>Welcome to Dash Board Page</h1>
+        <p>Onetime token login</p>
+        <h1 class="text-2xl font-bold" th:text="${user}"></h1>
+        <button class="btn btn-blue-700 px-2 py-1 rounded" onclick="window.location.href='/login'">Login Page</button>
+        <button class="btn btn-blue-700 px-2 py-1 rounded" onclick="window.location.href='/ott/sent'">OTT Page</button>
+    </div>
+</body>
+</html>
